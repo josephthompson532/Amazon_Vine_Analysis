@@ -25,8 +25,7 @@ At this point, I could have used either SQL in PostgreSQL to perform my data ana
 
 The data I was after was in the Vine table. I performed a series of non-destructive transformations on the data to ultimately create a dataframe where total_votes were greater than or equal to 20 and helpful_votes/total_votes was greater than or equal to 50%. Then I created two dataframes off of this one, those that were from Vine reviewers and those that were not. Then for each of these dataframes I found the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews. The final dataframes containing these results are "paid_results" and "unpaid_results".
 
-
-![Screen Shot 2020-11-01 at 1 25 06 PM](https://user-images.githubusercontent.com/66881241/97907762-9a3ca700-1cfa-11eb-8071-8896c83271b7.png)
+![Screen Shot 2020-11-02 at 11 57 56 AM](https://user-images.githubusercontent.com/66881241/97917945-22767880-1d0a-11eb-9078-828e919b99c1.png)
 
 ## Results
 
@@ -49,7 +48,6 @@ Unpaid_Reviewers:
 This data suggests that there is a clear bias toward five-star reviews from paid-reviewers. This is clearly portrayed by the disparity between the percentage of reviews that were 5-star between paid and unpaid reviewers.
 
 Further analysis should include testing other sample data to see if this increase in five-star ratings is consistent across different products being reviewed.
-
 
 
 
