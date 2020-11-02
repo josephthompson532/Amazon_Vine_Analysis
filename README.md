@@ -42,13 +42,25 @@ Further analysis should include testing other sample data to see if this increas
 
 
 
-Created an RDS database.
-Connected it to PgAdmin
-Created Schema and imported it
-Picked a set of data to review
-spun up a cluster on databricks
-import s3 data into databricks
-Performed ETL into Postgres
-Performed transformations on the data to find metrics for 
-paid and unpaid results. 
-Analyze.
+
+![Screen Shot 2020-10-30 at 11 47 32 PM](https://user-images.githubusercontent.com/66881241/97907796-a9235980-1cfa-11eb-9562-b71116c48a11.png)
+
+![Screen Shot 2020-11-01 at 12 47 40 PM](https://user-images.githubusercontent.com/66881241/97907769-9b6dd400-1cfa-11eb-82ef-e2ecd9484e5c.png)
+
+![Screen Shot 2020-11-01 at 1 25 06 PM](https://user-images.githubusercontent.com/66881241/97907762-9a3ca700-1cfa-11eb-8071-8896c83271b7.png)
+
+![Screen Shot 2020-11-02 at 12 20 36 PM](https://user-images.githubusercontent.com/66881241/97917913-15f22000-1d0a-11eb-9704-42c5a2d08a29.png)
+
+![Screen Shot 2020-11-02 at 12 20 36 PM](https://user-images.githubusercontent.com/66881241/97917913-15f22000-1d0a-11eb-9704-42c5a2d08a29.png)
+
+![Screen Shot 2020-11-02 at 11 57 56 AM](https://user-images.githubusercontent.com/66881241/97917945-22767880-1d0a-11eb-9078-828e919b99c1.png)
+
+![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97917959-2a361d00-1d0a-11eb-95e8-9e9d567c6ba0.png)
+
+![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97917966-2dc9a400-1d0a-11eb-9d67-b62b032e5172.png)
+
+![Screen Shot 2020-11-02 at 11 14 09 AM](https://user-images.githubusercontent.com/66881241/97917983-35894880-1d0a-11eb-823e-aec8a46e499d.png)
+
+![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97918037-4934af00-1d0a-11eb-96e2-655c4dc61cb9.png)
+
+![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97918046-4d60cc80-1d0a-11eb-972d-278b07f4bb6e.png)
