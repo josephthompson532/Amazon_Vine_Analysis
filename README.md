@@ -13,6 +13,10 @@ I first initiated a PostgreSQL database in AWS RDS and linked it to PgAdmin on m
 
 The datasource I was working with were links to S3 with files with zipped tab-separated values. These files were approximately 1.6 GB each, so I decided to use a small hadoop cluster using Databricks to compensate for the large amount of data that I needed to process. 
 
+![Screen Shot 2020-11-02 at 11 14 09 AM](https://user-images.githubusercontent.com/66881241/97917983-35894880-1d0a-11eb-823e-aec8a46e499d.png)
+
+![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97918037-4934af00-1d0a-11eb-96e2-655c4dc61cb9.png)
+
 Once my cluster was up and running, I performed ETL on the data, importing it from the S3 bucket and then transforming it using pyspark to fit my PostgreSQL database Schema. Once the data was in a clean form capable of being uploaded, I sent it over to PostgreSQL using a direct connection with jdbc API.
 
 At this point, I could have used either SQL in PostgreSQL to perform my data analysis or Pyspark. I decided to continue using Pyspark, to further showcase my skillset using Pyspark to potential employers, however, I could have just as easily done this in SQL.
@@ -61,7 +65,5 @@ Further analysis should include testing other sample data to see if this increas
 
 ![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97917966-2dc9a400-1d0a-11eb-9d67-b62b032e5172.png)
 
-![Screen Shot 2020-11-02 at 11 14 09 AM](https://user-images.githubusercontent.com/66881241/97917983-35894880-1d0a-11eb-823e-aec8a46e499d.png)
 
-![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97918037-4934af00-1d0a-11eb-96e2-655c4dc61cb9.png)
 
