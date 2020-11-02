@@ -19,6 +19,8 @@ The datasource I was working with were links to S3 with files with zipped tab-se
 
 Once my cluster was up and running, I performed ETL on the data, importing it from the S3 bucket and then transforming it using pyspark to fit my PostgreSQL database Schema. Once the data was in a clean form capable of being uploaded, I sent it over to PostgreSQL using a direct connection with jdbc API.
 
+![Screen Shot 2020-10-30 at 11 47 32 PM](https://user-images.githubusercontent.com/66881241/97907796-a9235980-1cfa-11eb-9562-b71116c48a11.png)
+
 At this point, I could have used either SQL in PostgreSQL to perform my data analysis or Pyspark. I decided to continue using Pyspark, to further showcase my skillset using Pyspark to potential employers, however, I could have just as easily done this in SQL.
 
 The data I was after was in the Vine table. I performed a series of non-destructive transformations on the data to ultimately create a dataframe where total_votes were greater than or equal to 20 and helpful_votes/total_votes was greater than or equal to 50%. Then I created two dataframes off of this one, those that were from Vine reviewers and those that were not. Then for each of these dataframes I found the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews. The final dataframes containing these results are "paid_results" and "unpaid_results".
@@ -61,9 +63,7 @@ Further analysis should include testing other sample data to see if this increas
 
 ![Screen Shot 2020-11-02 at 11 57 56 AM](https://user-images.githubusercontent.com/66881241/97917945-22767880-1d0a-11eb-9078-828e919b99c1.png)
 
-![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97917959-2a361d00-1d0a-11eb-95e8-9e9d567c6ba0.png)
 
-![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97917966-2dc9a400-1d0a-11eb-9d67-b62b032e5172.png)
 
 
 
