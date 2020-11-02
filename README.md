@@ -9,8 +9,10 @@ Companies like SellBy pay a small fee to Amazon and provide products to Amazon V
 
 I first initiated a PostgreSQL database in AWS RDS and linked it to PgAdmin on my local machine. I then created a database called "Review_Data" and formulated a database Schema consisting of four tables. I then created these tables in the database. 
 
+### RDS
 ![Screen Shot 2020-11-02 at 11 14 09 AM](https://user-images.githubusercontent.com/66881241/97917983-35894880-1d0a-11eb-823e-aec8a46e499d.png)
 
+### PostgreSQL
 ![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97918046-4d60cc80-1d0a-11eb-972d-278b07f4bb6e.png)
 
 The datasource I was working with were links to S3 with files with zipped tab-separated values. These files were approximately 1.6 GB each, so I decided to use a small hadoop cluster using Databricks to compensate for the large amount of data that I needed to process. 
@@ -43,7 +45,7 @@ Conversely..
 * 15663 five-star reviews
 * 38.70% of the reviews were 5-star
 
-## Summary 
+# Summary 
 
 This data suggests that there is a clear bias toward five-star reviews from paid-reviewers. This is clearly portrayed by the disparity between the percentage of reviews that were 5-star between paid and unpaid reviewers.
 
