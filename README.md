@@ -9,6 +9,8 @@ Companies like SellBy pay a small fee to Amazon and provide products to Amazon V
 
 I first initiated a PostgreSQL database in AWS RDS and linked it to PgAdmin on my local machine. I then created a database called "Review_Data" and formulated a database Schema consisting of four tables. I then created these tables in the database. 
 
+![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97918046-4d60cc80-1d0a-11eb-972d-278b07f4bb6e.png)
+
 The datasource I was working with were links to S3 with files with zipped tab-separated values. These files were approximately 1.6 GB each, so I decided to use a small hadoop cluster using Databricks to compensate for the large amount of data that I needed to process. 
 
 Once my cluster was up and running, I performed ETL on the data, importing it from the S3 bucket and then transforming it using pyspark to fit my PostgreSQL database Schema. Once the data was in a clean form capable of being uploaded, I sent it over to PostgreSQL using a direct connection with jdbc API.
@@ -63,4 +65,3 @@ Further analysis should include testing other sample data to see if this increas
 
 ![Screen Shot 2020-11-02 at 11 25 01 AM](https://user-images.githubusercontent.com/66881241/97918037-4934af00-1d0a-11eb-96e2-655c4dc61cb9.png)
 
-![Screen Shot 2020-11-02 at 11 22 39 AM](https://user-images.githubusercontent.com/66881241/97918046-4d60cc80-1d0a-11eb-972d-278b07f4bb6e.png)
