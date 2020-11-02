@@ -53,4 +53,6 @@ This data suggests that there is a clear bias toward five-star reviews from paid
 
 Further analysis should include testing other sample data to see if this increase in five-star ratings is consistent across different products being reviewed.
 
+There are many factors at play when it comes to interpretting these results. Are Vine reviewers biased towards giving more favorable reviews, or are non-Vine reviewers more biased towards unfavorable reviews. This particular analysis does not answer these questions and further breakdown of the data is required to do so.
+
 
