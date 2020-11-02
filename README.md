@@ -23,7 +23,7 @@ Once my cluster was up and running, I performed ETL on the data, importing it fr
 
 ![Screen Shot 2020-11-02 at 11 57 56 AM](https://user-images.githubusercontent.com/66881241/97917945-22767880-1d0a-11eb-9078-828e919b99c1.png)
 
-At this point, I could have used either SQL in PostgreSQL to perform my data analysis or Pyspark. I decided to continue using Pyspark, to further showcase my skillset using Pyspark to potential employers, however, I could have just as easily done this in SQL.
+At this point, I could have used either SQL in PostgreSQL to perform my data analysis or Pyspark. I chose to continue using Pyspark to make further transformations.
 
 The data I was after was in the Vine table. I performed a series of non-destructive transformations on the data to ultimately create a dataframe where total_votes were greater than or equal to 20 and helpful_votes/total_votes was greater than or equal to 50%. Then I created two dataframes off of this one, those that were from Vine reviewers and those that were not. Then for each of these dataframes I found the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews. The final dataframes containing these results are "paid_results" and "unpaid_results".
 
