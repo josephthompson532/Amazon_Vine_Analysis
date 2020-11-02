@@ -31,14 +31,14 @@ The data I was after was in the Vine table. I performed a series of non-destruct
 
 The sample is extremely lopsided, with 40,471 reviews from unpaid reviewers and 94 reviews from paid reviewers.
 
-Paid_Reviewers:
+### Paid_Reviewers:
 * 94 reviews
 * 48 five-star reviews
 * 51.06% of the reviews were 5-star
 
 Conversely..
 
-Unpaid_Reviewers:
+### Unpaid_Reviewers:
 * 40,471 reviews
 * 15663 five-star reviews
 * 38.70% of the reviews were 5-star
@@ -48,21 +48,5 @@ Unpaid_Reviewers:
 This data suggests that there is a clear bias toward five-star reviews from paid-reviewers. This is clearly portrayed by the disparity between the percentage of reviews that were 5-star between paid and unpaid reviewers.
 
 Further analysis should include testing other sample data to see if this increase in five-star ratings is consistent across different products being reviewed.
-
-
-
-
-
-
-
-
-
-
-![Screen Shot 2020-11-02 at 12 20 36 PM](https://user-images.githubusercontent.com/66881241/97917913-15f22000-1d0a-11eb-9704-42c5a2d08a29.png)
-
-![Screen Shot 2020-11-02 at 11 57 56 AM](https://user-images.githubusercontent.com/66881241/97917945-22767880-1d0a-11eb-9078-828e919b99c1.png)
-
-
-
 
 
