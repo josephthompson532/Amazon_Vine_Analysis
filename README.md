@@ -1,4 +1,4 @@
-# Amazon_Vine_Analysis_2
+# Amazon_Vine_Analysis
 
 ## Purpose
 Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. The purpose of this analysis was to find out if there is any bias toward favorable reviews from Vine members. 
