@@ -25,6 +25,9 @@ At this point, I could have used either SQL in PostgreSQL to perform my data ana
 
 The data I was after was in the Vine table. I performed a series of non-destructive transformations on the data to ultimately create a dataframe where total_votes were greater than or equal to 20 and helpful_votes/total_votes was greater than or equal to 50%. Then I created two dataframes off of this one, those that were from Vine reviewers and those that were not. Then for each of these dataframes I found the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews. The final dataframes containing these results are "paid_results" and "unpaid_results".
 
+
+![Screen Shot 2020-11-01 at 1 25 06 PM](https://user-images.githubusercontent.com/66881241/97907762-9a3ca700-1cfa-11eb-8071-8896c83271b7.png)
+
 ## Results
 
 The sample is extremely lopsided, with 40,471 reviews from unpaid reviewers and 94 reviews from paid reviewers.
@@ -51,11 +54,9 @@ Further analysis should include testing other sample data to see if this increas
 
 
 
-![Screen Shot 2020-10-30 at 11 47 32 PM](https://user-images.githubusercontent.com/66881241/97907796-a9235980-1cfa-11eb-9562-b71116c48a11.png)
 
-![Screen Shot 2020-11-01 at 12 47 40 PM](https://user-images.githubusercontent.com/66881241/97907769-9b6dd400-1cfa-11eb-82ef-e2ecd9484e5c.png)
 
-![Screen Shot 2020-11-01 at 1 25 06 PM](https://user-images.githubusercontent.com/66881241/97907762-9a3ca700-1cfa-11eb-8071-8896c83271b7.png)
+
 
 ![Screen Shot 2020-11-02 at 12 20 36 PM](https://user-images.githubusercontent.com/66881241/97917913-15f22000-1d0a-11eb-9704-42c5a2d08a29.png)
 
